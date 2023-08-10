@@ -17,7 +17,7 @@ export const MenuScreen = ({ navigation }: MenuScreenProps) => {
 			<View style={styles.menuWrapper}>
 				<AppButtton onPress={handleNavigate(ROOT_STACK_SCREEN_NAMES.SWIPES)}>Swipes</AppButtton>
 				<AppButtton onPress={handleNavigate(ROOT_STACK_SCREEN_NAMES.ROTATION)}>Rotation</AppButtton>
-				<AppButtton onPress={handleNavigate(ROOT_STACK_SCREEN_NAMES.MENU)}>Menu</AppButtton>
+				<AppButtton onPress={handleNavigate(ROOT_STACK_SCREEN_NAMES.PINCH)}>Pinch</AppButtton>
 				<AppButtton onPress={handleNavigate(ROOT_STACK_SCREEN_NAMES.MENU)}>Menu</AppButtton>
 			</View>
 		</ScrollView>
